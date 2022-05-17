@@ -1,0 +1,52 @@
+{
+  "Actions": {
+    "type": "table",
+    "value": [
+      {
+        "class": "ActionListIf",
+        "Name": {
+          "type": "string",
+          "value": "ALif_1"
+        },
+        "Condition": {
+          "type": "integer",
+          "value": 0
+        },
+        "Actions": {
+          "type": "table",
+          "value": {
+            "class": "ActionIncrement",
+            "Name": {
+              "type": "string",
+              "value": "AInc_1"
+            },
+            "Target": {
+              "type": "string",
+              "value": "Health"
+            },
+            "Step": {
+              "type": "float",
+              "value": 5
+            }
+          }
+        }
+      },
+      {
+        "class": "ActionRemoveAction",
+        "Name": {
+          "type": "string",
+          "value": "ActRem_1"
+        },
+        "ActionToDelte": {
+          "type": "string",
+          "value": "ALif_1"
+        }
+      }
+    ]
+
+  },
+  "Health": {
+    "type": "integer",
+    "value": 100
+  }
+}

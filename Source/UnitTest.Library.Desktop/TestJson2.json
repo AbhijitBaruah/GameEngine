@@ -1,0 +1,27 @@
+{
+  "CWeapon": {
+    "type": "table",
+    "value": {
+
+      "class": "AttributedFoo",
+
+      "ASelectedWeapon": {
+        "type": "integer",
+        "value": 3
+      },
+
+      "GMelee": {
+        "type": "table",
+        "value": {
+
+          "class": "Scope",
+
+          "ZSelectedWeapon": {
+            "type": "integer",
+            "value": 5
+          }
+        }
+      }
+    }
+  }
+}

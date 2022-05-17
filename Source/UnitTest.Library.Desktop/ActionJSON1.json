@@ -1,0 +1,69 @@
+{
+  "Children": {
+    "type": "table",
+    "value": [
+      {
+        "class": "Avatar",
+        "Name": {
+          "type": "string",
+          "value": "avatar_1"
+        },
+        "Actions": {
+          "type": "table",
+          "value": [
+            {
+              "class": "ActionListIf",
+              "Name": {
+                "type": "string",
+                "value": "Action_If_1"
+              },
+              "Condition": {
+                "type": "integer",
+                "value": 0
+              },
+              "Step": {
+                "type": "float",
+                "value": 10
+              },
+              "Actions": {
+                "type": "table",
+                "value": [
+                  {
+                    "class": "ActionCreateAction",
+                    "Name": {
+                      "type": "string",
+                      "value": "ACA_1"
+                    },
+                    "ClassName": {
+                      "type": "string",
+                      "value": "ActionIncrement"
+                    },
+                    "InstanceName": {
+                      "type": "string",
+                      "value": "AInc_1"
+                    },
+                    "ParentName": {
+                      "type": "string",
+                      "value": "Action_If_1"
+                    }
+                  }
+                ]
+              }
+            }
+
+
+          ]
+        },
+        "Power": {
+          "type": "float",
+           "value": 0
+        }
+      }
+
+
+    ]
+  }
+
+
+
+}

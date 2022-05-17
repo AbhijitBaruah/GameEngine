@@ -1,0 +1,38 @@
+{
+  "Actions": {
+    "type": "table",
+    "value": [
+      {
+        "class": "ActionList",
+        "Name": {
+          "type": "string",
+          "value": "AList_1"
+        },
+        "Actions": {
+          "type": "table",
+          "value": [
+            {
+              "class": "ActionIncrement",
+              "Name": {
+                "type": "string",
+                "value": "AInc_1"
+              },
+              "Target": {
+                "type": "string",
+                "value": "Power"
+              },
+              "Step": {
+                "type": "float",
+                "value": -10
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "Power": {
+    "type": "float",
+    "value": 10
+  }
+}

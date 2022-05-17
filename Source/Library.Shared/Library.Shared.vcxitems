@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{e9d6fd8a-4930-4b5b-80b9-e995d1da2007}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionExpression.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\Library.Desktop\DefaultHash.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Action.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionCreateAction.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionIncrement.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionList.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionListIf.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionRemoveAction.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Attribute.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Datum.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Event.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)EventQueue.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Factory.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameClock.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameState.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameTime.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)HashMap.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)IEventPublisher.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)IEventSubscriber.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)IJsonParseHelper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)JsonParseCoordinator.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)RTTI.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Scope.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SList.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Stack.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)TableParserHelper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)TypeRegistry.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Vector.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Datum.inl" />
+    <None Include="$(MSBuildThisFileDirectory)DefaultHash.inl" />
+    <None Include="$(MSBuildThisFileDirectory)Event.inl" />
+    <None Include="$(MSBuildThisFileDirectory)Factory.inl" />
+    <None Include="$(MSBuildThisFileDirectory)HashMap.inl" />
+    <None Include="$(MSBuildThisFileDirectory)RTTI.inl" />
+    <None Include="$(MSBuildThisFileDirectory)SList.inl" />
+    <None Include="$(MSBuildThisFileDirectory)Stack.inl" />
+    <None Include="$(MSBuildThisFileDirectory)TypeRegistry.inl" />
+    <None Include="$(MSBuildThisFileDirectory)Vector.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionExpression.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Action.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionCreateAction.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionIncrement.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionList.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionListIf.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionRemoveAction.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Attribute.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Datum.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)DefaultHash.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)EventQueue.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameClock.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameState.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameTime.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)IEventPublisher.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)IEventSubscriber.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)IJsonParseHelper.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)JsonParseCoordinator.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Scope.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)TableParserHelper.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)TypeRegistry.cpp" />
+  </ItemGroup>
+</Project>

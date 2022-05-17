@@ -1,0 +1,27 @@
+{
+  "CWeapon": {
+    "type": "table",
+    "value": {
+
+      "class": "AttributedFoo",
+
+      "ExternalIntegerArray": {
+        "type": "integer",
+        "value": [1,2,3]
+      },
+
+      "GMelee": {
+        "type": "table",
+        "value": {
+
+          "class": "Scope",
+
+          "ZSelectedWeapon": {
+            "type": "integer",
+            "value": 5
+          }
+        }
+      }
+    }
+  }
+}

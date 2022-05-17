@@ -1,0 +1,28 @@
+{
+  "Actions": {
+    "type": "table",
+    "value": {
+      "class": "ActionExpression",
+      "Name": {
+        "type": "string",
+        "value": "AExpr"
+      },
+      "Expression": {
+        "type": "string",
+        "value": "( Player.Health - Player.Damage )"
+      }
+    }
+  },
+  "Name": {
+    "type": "string",
+    "value": "Player"
+  },
+  "Health": {
+    "type": "integer",
+    "value": "100"
+  },
+  "Damage": {
+    "type": "integer",
+    "value": "10"
+  }
+}
